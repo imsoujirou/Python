@@ -1,0 +1,8 @@
+password = 'GgRSG123'
+print('Please type your encrypted password:')
+myInput = input()
+while myInput != password:
+    print('Retry')
+    print('Please type your encrypted password:')
+    myInput = input()
+print('Authenticated')
