@@ -1,3 +1,7 @@
+#Notes
+#While myInput is not equal to password then the code will retry to ask again your password until you input the correct password 
+#Then the process will stop
+
 password = 'GgRSG123'
 print('Please type your encrypted password:')
 myInput = input()
